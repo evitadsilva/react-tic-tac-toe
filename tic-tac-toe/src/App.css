@@ -1,6 +1,5 @@
 body{
   font-family: sans-serif;
-  background-color: black;
 }
 
 .game{
@@ -15,7 +14,6 @@ body{
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-  color: #f0f0f0;
 }
 
 .board{
@@ -31,10 +29,11 @@ body{
   border: 2px solid #cccccc;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
+  color: rgb(95, 95, 95);
 }
 
 .cell:hover{
-  background-color: #d7d7d7;
+  background-color: #f0f0f0;
 }
 
 .reset-button{
